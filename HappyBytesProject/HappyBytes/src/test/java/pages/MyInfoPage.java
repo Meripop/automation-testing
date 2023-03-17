@@ -17,7 +17,6 @@ public class MyInfoPage {
 
     By saveBtnLocation = By.cssSelector("button[type='submit'][data-v-00c9062b='']");
     By birthDateInputLocation = By.xpath("//div/div[1]/div[2]/div[2]/div/div/div/div[2]/div[1]/form/div[3]/div[2]/div[1]/div/div[2]/div/div/input");
-
     By myinfoButton = By.cssSelector("li.oxd-main-menu-item-wrapper:nth-child(6)");
     By personalDetailsButton = By.linkText("Personal Details");
     By contactDetailsButton = By.linkText("Contact Details");
@@ -30,6 +29,7 @@ public class MyInfoPage {
     By reportToButton = By.linkText("Report-to");
     By qualificationsButton = By.linkText("Qualifications");
     By membershipsButton = By.linkText("Memberships");
+    
     public MyInfoPage(WebDriver driver, WebDriverWait wait) {
         this.driver = driver;
         this.wait = wait;
