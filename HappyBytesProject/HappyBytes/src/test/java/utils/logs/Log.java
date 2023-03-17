@@ -10,7 +10,6 @@ public class Log {
         Log.info(message);
     }
 
-
     public static void warn(String message) {
         Log.warn(message);
     }
